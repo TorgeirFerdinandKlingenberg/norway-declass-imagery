@@ -1,13 +1,13 @@
-# Deklasfiserte spionsatellittbilder over Norge
+# Deklassifiserte spionsatellittbilder over Norge
 ### Declass I / II / III – August–Oktober
 
-Oversikt over tilgjengelige bilder fra USAs deklasfiserte satellittprogram over Norge,
+Oversikt over tilgjengelige bilder fra USAs deklassifiserte satellittprogram over Norge,
 tatt i perioden august–oktober. Data er hentet fra [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
 via Machine-to-Machine (M2M) API.
 
 **[Åpne interaktivt kart](https://TorgeirFerdinandKlingenberg.github.io/norway-declass-imagery)**
 
-![Statistikk over deklasfiserte satellittbilder over Norge](declass_statistikk.png)
+![Statistikk over deklassifiserte satellittbilder over Norge](declass_statistikk.png)
 
 ---
 
@@ -28,17 +28,17 @@ via Machine-to-Machine (M2M) API.
 | Krever bestilling / skanning | 1733 | 96 % |
 
 De fleste bildene må bestilles for skanning fra originalt filmarkiv hos USGS EROS.
-Bestilling gjores via [EarthExplorer](https://earthexplorer.usgs.gov/) for $30 per scene.
+Bestilling gjøres via [EarthExplorer](https://earthexplorer.usgs.gov/) for $30 per scene.
 
 ## Om kartet
 
 Det interaktive kartet viser footprints for alle 1802 scener.
-Lagene kan skrus av/pa per datasett og status i kartets lagkontroll (overst til hoyre).
+Lagene kan skrus av/på per datasett og status i kartets lagkontroll (øverst til høyre).
 
-- **Gront** = klar for direkte nedlasting
+- **Grønt** = klar for direkte nedlasting
 - **Oransje** = krever bestilling og skanning
 
-Klikk pa en footprint for a se scene-ID, dato og status.
+Klikk på en footprint for å se scene-ID, dato og status.
 
 ## Filer
 
@@ -46,9 +46,9 @@ Klikk pa en footprint for a se scene-ID, dato og status.
 |---|---|
 | `index.html` | Interaktivt kart (Folium) |
 | `declass_statistikk.png` | Statistikkfigur |
-| `declass_statistikk.csv` | Trefftall per ar, datasett og status |
-| `declass_resultater.json` | Radata - alle 1802 scener med footprint og metadata |
-| `declass_search.py` | Python-script for a reprodusere soket |
+| `declass_statistikk.csv` | Trefftall per år, datasett og status |
+| `declass_resultater.json` | Rådata – alle 1802 scener med footprint og metadata |
+| `declass_search.py` | Python-script for å reprodusere søket |
 
 ## Reprodusere
 
