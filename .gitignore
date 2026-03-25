@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Hemmeligheter – aldri last opp token eller passord
+*.env
+.env
+secrets.py
+
+# Lokale filer
+map.geojson
+*.log
